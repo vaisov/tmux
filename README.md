@@ -1,5 +1,5 @@
 Install vim plugins if don't work:
 
-vim
+`vim`
 
-:PlugInstall
+`:PlugInstall`
