@@ -8,3 +8,4 @@ Plug 'drewtempelmeyer/palenight.vim'
 call plug#end()
 set background=dark
 colorscheme palenight
+hi Normal guibg=NONE ctermbg=NONE
