@@ -11,3 +11,5 @@ cd tmux-*/
 make && sudo make install
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cd -
+
+cp ssh_autocomplete.sh /etc/bash_completion.d/ssh
