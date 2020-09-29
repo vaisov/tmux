@@ -12,4 +12,6 @@ make && sudo make install
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cd -
 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 cp ssh_autocomplete.sh /etc/bash_completion.d/ssh
