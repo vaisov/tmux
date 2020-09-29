@@ -9,4 +9,5 @@ tar -zxf tmux-*.tar.gz
 cd tmux-*/
 ./configure
 make && sudo make install
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 cd -
