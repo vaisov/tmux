@@ -23,3 +23,5 @@ chout() {
 gitp() {
   git push origin $(git rev-parse --abbrev-ref HEAD)
 }
+
+alias tmux="TERM=xterm-256color tmux"
