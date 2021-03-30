@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get -y dist-upgrade
 sudo apt-get install -y parallel libncurses-dev libevent-dev ncurses-dev build-essential bison pkg-config git wget curl vim mc tmux-xpanes
 
-wget https://github.com/tmux/tmux/releases/download/3.1b/tmux-3.1b.tar.gz
+wget https://github.com/tmux/tmux/releases/download/3.1c/tmux-3.1c.tar.gz
 tar -zxf tmux-*.tar.gz
 cd tmux-*/
 ./configure
