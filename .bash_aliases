@@ -1,3 +1,8 @@
+fixssh() {
+    eval $(tmux show-env    \
+        |sed -n 's/^\(SSH_[^=]*\)=\(.*\)/export \1="\2"/p')
+}
+
 branch() {
   if [ ! -z "$1" ]
   then
